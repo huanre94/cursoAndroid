@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">App</string>
+    <string name="main_rb_1" translatable="true">Toast</string>
+    <string name="main_rb_2" translatable="true">Dialog</string>
+    <string name="main_rb_3" translatable="true">Snackbar</string>
+    <string name="main_rb_4" translatable="true">Notification</string>
+    <string name="main_bt_mostrar">Mostrar</string>
+    <string name="main_bt_abrir">Abrir</string>
+
+    <string-array name="datos_arreglo">
+        <item>Guayaquil</item>
+        <item>Quito</item>
+        <item>Cuenca</item>
+        <item>Manta</item>
+    </string-array>
+
+    <string name="main_dialog_label_si">Aceptar</string>
+    <string name="main_dialog_label_no">Cancelar</string>
+</resources>
+
+

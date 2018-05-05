@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/main_rb_1"
+            style="@style/miEstilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_rb_1" />
+
+        <RadioButton
+            android:id="@+id/main_rb_2"
+            style="@style/miEstilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_rb_2" />
+
+        <RadioButton
+            android:id="@+id/main_rb_3"
+            style="@style/miEstilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_rb_3" />
+
+        <RadioButton
+            android:id="@+id/main_rb_4"
+            style="@style/miEstilo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_rb_4" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/main_bt_mostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/main_bt_mostrar" />
+
+    <Button
+        android:id="@+id/main_bt_abrir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/main_bt_abrir" />
+</LinearLayout>
